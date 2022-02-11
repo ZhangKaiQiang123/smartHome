@@ -1,0 +1,6 @@
+aspeed-bmc-facebook-minipack.o: \
+ arch/arm/boot/dts/aspeed-bmc-facebook-minipack.dts \
+ arch/arm/boot/dts/ast2500-facebook-netbmc-common.dtsi \
+ arch/arm/boot/dts/aspeed-g5.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/aspeed-clock.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/aspeed-scu-ic.h

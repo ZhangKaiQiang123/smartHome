@@ -1,0 +1,12 @@
+aspeed-bmc-opp-tacoma.o: arch/arm/boot/dts/aspeed-bmc-opp-tacoma.dts \
+ arch/arm/boot/dts/aspeed-g6.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/aspeed-scu-ic.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/ast2600-clock.h \
+ arch/arm/boot/dts/aspeed-g6-pinctrl.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/aspeed-gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/i2c/i2c.h \
+ scripts/dtc/include-prefixes/dt-bindings/leds/leds-pca955x.h \
+ arch/arm/boot/dts/openbmc-flash-layout-128.dtsi

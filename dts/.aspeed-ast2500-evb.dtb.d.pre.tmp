@@ -1,0 +1,5 @@
+aspeed-ast2500-evb.o: arch/arm/boot/dts/aspeed-ast2500-evb.dts \
+ arch/arm/boot/dts/aspeed-g5.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/aspeed-clock.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/aspeed-scu-ic.h \
+ arch/arm/boot/dts/openbmc-flash-layout.dtsi
